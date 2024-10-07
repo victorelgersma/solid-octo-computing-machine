@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "mjml index.mjml -o index.html",
-    "server": "http-server"
+    "serve": "live-server"
   },
   "keywords": [],
   "author": "",

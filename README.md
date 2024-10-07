@@ -1,1 +1,3 @@
-# solid-octo-computing-machine
+# MJML Playground
+
+documentation: https://documentation.mjml.io/

@@ -1,15 +1,36 @@
 <mjml>
+  <mj-head>
+    <mj-title>Two Sections with Three Columns</mj-title>
+    <mj-attributes>
+      <mj-all font-family="Arial, sans-serif" />
+      <mj-text font-size="14px" color="#000000" />
+    </mj-attributes>
+  </mj-head>
   <mj-body>
-    <mj-section>
+    <!-- First Section -->
+    <mj-section background-color="#f0f0f0" padding="20px">
       <mj-column>
-        <mj-image src="/assets/img/backround.jpg"></mj-image>
-        <mj-text>Hello World!</mj-text>
+        <mj-text align="center"> Column 1 - Section 1 </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center"> Column 2 - Section 1 </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center"> Column 3 - Section 1 </mj-text>
       </mj-column>
     </mj-section>
 
-    <mj-section background-url="/assets/img/background.jpg">
-      There is some more text in this section, that isn't shown because this is
-      a background element.
+    <!-- Second Section -->
+    <mj-section background-color="#ffffff" padding="20px">
+      <mj-column>
+        <mj-text align="center"> Column 1 - Section 2 </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center"> Column 2 - Section 2 </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center"> Column 3 - Section 2 </mj-text>
+      </mj-column>
     </mj-section>
   </mj-body>
 </mjml>
