@@ -2,9 +2,14 @@
   <mj-body>
     <mj-section>
       <mj-column>
+        <mj-image src="/assets/img/backround.jpg"></mj-image>
         <mj-text>Hello World!</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section background-url="/assets/img/background-url.jpg">
+
+    <mj-section background-url="/assets/img/background.jpg">
+      There is some more text in this section, that isn't shown because this is
+      a background element.
+    </mj-section>
   </mj-body>
 </mjml>
