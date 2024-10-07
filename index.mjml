@@ -1,0 +1,10 @@
+<mjml>
+  <mj-body>
+    <mj-section>
+      <mj-column>
+        <mj-text>Hello World!</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-url="/assets/img/background-url.jpg">
+  </mj-body>
+</mjml>
